@@ -23,8 +23,6 @@ describe('errorFlow', () => {
   it('Первый yield — put(clearErrorSuccess())', () => {
     expect(iterator.next().value).toEqual(put(clearErrorSuccess()));
   });
-
-  // console.log(iterator.next().value)
 });
 
 
